@@ -57,3 +57,13 @@ section{
      background-repeat: no-repeat;
      background-position: center;
 }
+
+.flag:nth-of-type(even){
+    border-top: 17.5px;
+    border-bottom: 17.5px;
+}
+
+.flag:nth-of-type(odd){
+    border-left: 17.5px;
+    border-right: 17.5px;
+}
