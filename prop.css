@@ -1,59 +1,45 @@
-html{
-    font-size: 35px;
-}
-main{
-    background-color: white;
-    font-size: 100px;
-}
 section{
-    margin: 100px auto;
-    width: 900px;
-    height: 600px;
-    width: 70%;
-    border: .5rem solid orange;
-    
+  margin: 100px auto;
+  width: 600px;
+  height: 600px;
+  border: 5px solid silver;
 }
-.flag:nth-of-type(1){
-    width: 900px;
-    background: linear-gradient(90deg, green 33.33%, white 33.33%, white 66.66%, green 66.66%);
-    background-size: contain; 
-    margin: 4cm auto;
+section:nth-of-type(1){
+  height: 200px;
+  background-image: linear-gradient(to bottom right, red;)
+  background-size: 180px, 100px, 110px, 110px;
+  background-repeat: repeat,no-repeat,repeat-x,repeat-y;
+  background-position: bottom right,top left,center;
 }
-.flag:nth-of-type(2){
-    width: 900px;
-    background: radial-gradient(circle, crimson 40%, white 40%);
-    background-size: contain;
+section:nth-of-type(2){
+  background-image: linear-gradient();
+  height: 200pxg;
+  background-size: 80px,;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-position: ;
 }
-.flag:nth-of-type(3){
-    width: 900px;
-    background: linear-gradient(90deg, blue 33.33%, white 33.33%, white 66.66%, red 66.66%);
-    background-size: contain;
+section:nth-of-type(3){
+  background-image: linear-gradient url(./images/yellow.png), url(./images/yellow.png), url(./images/yellow.png),
+  url(./images/yellow.png), url(./images/yellow.png), (red, red);
+  background-size: 80px, 30px, 30px, 30px, 30px, contain;
+  background-repeat: no-repeat,no-repeat, no-repeat, no-repeat repeat;
+  background-position: 30px, 20px, 100px, 120px, 35px, 120px 70px, 90px, 100px;
 }
-.flag:nth-of-type(4){
-    width: 900px;
-    background: linear-gradient(180deg, red 33.33%, blue 33.33%, blue 66.66%, green 66.66%);
-    background-size: contain;
+section:nth-of-type(4){
+  max-height: 300px;
+  overflow: auto;
+  border: 15px groove black;
+  /*padding-left: 20px; */
+  padding: 20px 15px 10px 55px;
+  margin-bottom: 4mm auto;
 }
-.flag:nth-of-type(5){
-    width: 900px;
-    background: linear-gradient(180deg, green 33.33%, yellow 33.33%, yellow 66.66%, blue 66.66%);
-    background-size: contain;
+section:nth-of-type(5){
+  min-height: 150px;
+  border-right:15px ridge black;
+  border-right:15px dodgerblue;
+  /*border-width:40px;
+  border-color: tan;
+  border-style: dotted; */
 }
-.flag:nth-of-type(6){
-    width: 900px;
-    background: linear-gradient(180deg, black 33.33%, red 33.33%, red 66.66%, yellow 66.66%);
-    background-size: contain;
-}
- .flag:nth-of-type(7){
-    background-image: url(./R.png),linear-gradient(180deg, red 33.33%, yellow 33.33%, yellow 66.66%, green 66.66%); 
-    background-size: 80px, contain; 
-    background-repeat: no-repeat;
-    background-position: center;
-    }
-.flag:nth-of-type(8){
-    height: 400px;
-    background-image: url(./yellow_files/canada.png), linear-gradient(90deg, red 20%, white 20%, white 80%, red 80%); 
-    background-size: contain; 
-     background-repeat: no-repeat;
-     background-position: center;
-}
+
